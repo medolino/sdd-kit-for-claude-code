@@ -7,6 +7,9 @@ allowed-tools: Read, Edit, AskUserQuestion, Agent
 Tighten the active spec before planning. Target: spec `$ARGUMENTS` (default: highest-numbered
 folder in `specs/`).
 
+First read `~/.claude/spec-templates/writing-rules.md` and follow it for everything you write —
+to me and into the spec files.
+
 Steps:
 1. Read the spec's `spec.md`.
 2. Hunt for ambiguity and underspecification: unstated edge cases, vague acceptance criteria,
@@ -14,6 +17,8 @@ Steps:
    in "Open questions".
 3. For things research can settle, dispatch the `spec-researcher` subagent. For things only I
    can decide, ask me with AskUserQuestion — batch related questions, max a few at a time.
+   Each question must make sense on its own: say in plain words what the choice is about and
+   what each option changes.
 4. Update `spec.md` in place: rewrite weak acceptance criteria into checkable ones, fill gaps,
    clear resolved open questions.
 5. Report what changed and confirm the spec is ready for `/spec:plan`.

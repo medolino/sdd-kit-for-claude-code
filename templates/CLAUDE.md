@@ -21,3 +21,6 @@ highest-numbered folder unless I say otherwise.
 - Stop for my review at each phase gate; don't run the whole pipeline unattended.
 - Always run the verification gates in `docs/constitution.md` §5 before claiming done.
 - Reuse existing code in this repo before writing new code.
+- Write to me in short, plain sentences. No invented labels or bare IDs — say what the thing is.
+- Whenever you stop and wait for me, end with what is done, what I must do (exact steps and what
+  I should see), and what to reply. Full rules: `~/.claude/spec-templates/writing-rules.md`.

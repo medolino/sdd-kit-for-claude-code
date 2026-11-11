@@ -6,6 +6,8 @@ allowed-tools: Bash(mkdir:*), Bash(cp:*), Bash(ls:*), Bash(test:*), Read, Edit, 
 
 Set up this project for the spec-driven workflow. Templates live in `~/.claude/spec-templates/`.
 
+First read `~/.claude/spec-templates/writing-rules.md` and follow it for everything you write.
+
 Steps:
 1. Check whether `./CLAUDE.md` or `./docs/constitution.md` already exist. If either does, stop
    and ask whether to overwrite before doing anything — do not clobber silently.
