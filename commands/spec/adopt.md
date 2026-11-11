@@ -5,6 +5,8 @@ allowed-tools: Read, Grep, Glob, Bash(ls:*), Bash(cat:*), Bash(git:*), Bash(mkdi
 
 Bring an existing project into the spec-driven workflow by generating its baseline docs.
 
+First read `~/.claude/spec-templates/writing-rules.md` and follow it for everything you write.
+
 Steps:
 1. Explore the repo to understand it. For a broad sweep, dispatch Explore subagents to map:
    stack & tooling, directory structure & module boundaries, conventions actually in use

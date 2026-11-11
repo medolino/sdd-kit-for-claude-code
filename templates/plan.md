@@ -1,9 +1,13 @@
 # Plan: {{FEATURE_NAME}}
 
 - **Spec:** ./spec.md
-- **Status:** draft · _Created {{YYYY-MM-DD}}_
+- **Created:** {{YYYY-MM-DD}}
 
 > The **HOW**. Derived from spec.md + the project constitution. Code is generated from this.
+
+## In short
+{{3–4 plain sentences: what will be built, how, and which part is the riskiest. Someone who reads
+only this block should know what the plan is about.}}
 
 ## Approach (chosen)
 {{2–4 sentences: the strategy and why it fits the constitution. State the approach you picked,
@@ -30,5 +34,6 @@ name them with paths.}}
 - {{Risk}} → {{mitigation}}.
 
 ## Verification mapping
-> How each spec acceptance criterion will be proven.
-- {{criterion}} → {{the test / command that proves it}}.
+> How each spec acceptance criterion will be proven. Write the ID and what it says.
+> If only a person can check a criterion, say so and write the steps that person will follow.
+- **AC-1** ({{criterion in a few words}}) → {{the test / command that proves it}}.
